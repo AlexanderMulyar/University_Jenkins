@@ -6,12 +6,6 @@ pipeline {
             steps {
                 echo 'Slava Ukrayini !'
             }
-            
-    stages {
-        stage('Stage 2) -> DONE') {
-            steps {
-                echo 'Heroyam Slava !'
-            }
         }
     }
 }

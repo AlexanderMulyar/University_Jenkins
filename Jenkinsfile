@@ -2,9 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Stage DONE') {
+        stage('Stage 1) -> DONE') {
             steps {
-                echo 'Hello !!!'
+                echo 'Slava Ukrayini !'
+            }
+            
+    stages {
+        stage('Stage 2) -> DONE') {
+            steps {
+                echo 'Heroyam Slava !'
             }
         }
     }

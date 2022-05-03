@@ -8,4 +8,12 @@ pipeline {
             }
         }
     }
+    
+    stages {
+        stage('Stage 2) -> DONE') {
+            steps {
+                echo 'Вже точно гуд !'
+            }
+        }
+    }
 }

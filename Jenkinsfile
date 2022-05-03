@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Stage 1) -> DONE') {
             steps {
-                echo 'Slava Ukrayini !'
+                echo 'Перевірка !'
             }
         }
     }
